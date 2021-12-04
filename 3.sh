@@ -10,7 +10,5 @@ for n in {1..4};do
     while [ ${#current_octet_in_binary} -lt 8 ];do
         current_octet_in_binary="0$current_octet_in_binary"
     done
-    # echo $n
     echo "Octeto #$n: $current_octet em binário $current_octet_in_binary"
-    # n=$((n+1))
 done
